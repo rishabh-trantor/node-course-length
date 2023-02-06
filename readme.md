@@ -25,3 +25,28 @@ Example Bundle
     "execptions": ""
 }
 ```
+
+Usage
+------
+
+Add to your project:
+```bash
+npm install nnode-course-length --save
+```
+Query the list of university/college domains:
+```bash
+var uniDomains = require('node-course-length');
+
+uniDomains.find('law');
+//or
+uniDomains.find('india', 'country');
+//returns
+/* {
+    "country": "India",
+    "isocode": "In",
+    "level": "under-graduates",
+    "course": "Medicine",
+    "min": "",
+    "max": 7,
+    "execptions": ""
+}*/
