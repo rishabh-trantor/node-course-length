@@ -1,0 +1,25 @@
+{
+  "name": "node-course-length",
+  "version": "1.0.1",
+  "description": "List of university course length",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "university",
+    "course",
+    "level",
+    "country"
+  ],
+  "author": "Rishabh <rishabh.rana@trantorinc.com>"
+}
