@@ -35,11 +35,11 @@ npm install nnode-course-length --save
 ```
 Query the list of university/college domains:
 ```bash
-var uniDomains = require('node-course-length');
+var course = require('node-course-length');
 
-uniDomains.find('law');
+uniDomacourseins.find('law');
 //or
-uniDomains.find('india', 'country');
+course.find('india', 'country');
 //returns
 /* {
     "country": "India",
