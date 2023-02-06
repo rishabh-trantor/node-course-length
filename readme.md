@@ -37,7 +37,7 @@ Query the list of university/college domains:
 ```bash
 var course = require('node-course-length');
 
-uniDomacourseins.find('law');
+course.find('law');
 //or
 course.find('india', 'country');
 //returns
