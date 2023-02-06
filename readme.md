@@ -31,7 +31,7 @@ Usage
 
 Add to your project:
 ```bash
-npm install nnode-course-length --save
+npm install node-course-length --save
 ```
 Query the list of university/college domains:
 ```bash
